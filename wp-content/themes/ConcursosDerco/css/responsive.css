@@ -1,0 +1,148 @@
+/* iPhone 5 (portrait) ----------- */
+
+@media (min-width: 1281px) {
+  .fondoform {
+    top: -15%;
+  }
+  .form {}
+}
+
+.copycel {
+  display: none;
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .fondoform {
+    top: -15%;
+  }
+}
+
+.copycel {
+  display: none;
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .fondoform {
+    top: -15%;
+  }
+  .copycel {
+    display: none;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .fondoform {
+    top: -15%;
+  }
+  .copycel {
+    display: none;
+  }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .fondoform {
+    top: -15%;
+  }
+  .copycel {
+    display: none;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .form {
+    min-height: 0em;
+  }
+  .lfooter {
+    margin-left: 0em;
+    margin-top: 6px;
+  }
+  .dercocel {
+    display: block;
+    /* margin: auto; */
+    max-width: 12em;
+    margin: 0;
+    padding: 1em;
+  }
+  .logo {}
+  .titulo {
+    padding: -top: 1em;
+  }
+  .header {
+    height: auto;
+  }
+  .derco {
+    display: none;
+  }
+  .dercofoot {
+    max-width: 6em;
+    margin-top: 8px;
+  }
+  .copy {
+    /*font-size: 7px;
+      padding: 1em;
+      text-align: justify;
+      */
+    display: none;
+  }
+  .copycel {
+    color: rgba(255, 255, 255, 0.65);
+    text-transform: uppercase;
+    font-size: 7px;
+    padding: 1em;
+    text-align: justify;
+    margin: auto;
+    display: block;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* align-content: center; */
+    text-align: center;
+    /* font-size: 10px; */
+    /* margin: auto; */
+    /* align-self: flex-end; */
+  }
+  .social {
+    padding-top: 10px;
+  }
+  .facebook img {
+    width: 70%;
+    height: auto;
+  }
+  .Twitter img {
+    width: 70%;
+    height: auto;
+  }
+  .Youtube img {
+    width: 70%;
+    height: auto;
+  }
+  .linea {
+    height: 1px;
+  }
+  .fondoform {
+    display: none;
+  }
+}
